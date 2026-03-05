@@ -39,3 +39,8 @@ interface g0/1
 ip address 192.168.3.1 255.255.255.0
 no shutdown
 exit
+
+
+From PC1: ping 192.168.3.10 → ❌ Blocked
+
+From PC2: ping 192.168.3.10 → ✅ Allowed
